@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant AI - Technical Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: "Segoe UI", Arial, sans-serif; background: #f7f7f7; color: #222; margin: 0; }
+        .container { max-width: 700px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #0001; padding: 32px; }
+        h1, h2 { color: #2e7d32; }
+        .lang-switch { float: right; margin-top: -10px; }
+        .faq { margin: 24px 0; }
+        .faq h3 { margin-bottom: 6px; }
+        .contact { margin-top: 32px; }
+        .contact a { color: #388e3c; text-decoration: underline; }
+        .section { margin-bottom: 32px; }
+        .divider { border-top: 1px solid #e0e0e0; margin: 32px 0; }
+    </style>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.en').forEach(e => e.style.display = lang === 'en' ? 'block' : 'none');
+            document.querySelectorAll('.zh').forEach(e => e.style.display = lang === 'zh' ? 'block' : 'none');
+        }
+        window.onload = function() { switchLang('en'); }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="lang-switch">
+        <button onclick="switchLang('en')">English</button> | 
+        <button onclick="switchLang('zh')">中文</button>
+    </div>
+    <h1 class="en">Plant AI - Technical Support</h1>
+    <h1 class="zh" style="display:none;">Plant AI - 技术支持</h1>
+
+    <div class="section">
+        <h2 class="en">Frequently Asked Questions</h2>
+        <h2 class="zh" style="display:none;">常见问题</h2>
+        <div class="faq">
+            <h3 class="en">1. How do I identify a plant?</h3>
+            <h3 class="zh" style="display:none;">1. 如何识别植物？</h3>
+            <p class="en">Open the app, tap the camera icon, and take a photo of the plant or select one from your gallery. The AI will identify the plant and provide care tips.</p>
+            <p class="zh" style="display:none;">打开应用，点击相机图标，拍摄或选择植物照片，AI会自动识别并提供养护建议。</p>
+        </div>
+        <div class="faq">
+            <h3 class="en">2. How do I subscribe to premium features?</h3>
+            <h3 class="zh" style="display:none;">2. 如何订阅高级功能？</h3>
+            <p class="en">Go to the Subscription Plans page and choose a monthly or yearly plan. Follow the instructions to complete your purchase via the App Store.</p>
+            <p class="zh" style="display:none;">进入订阅页面，选择月度或年度套餐，按照提示通过App Store完成购买。</p>
+        </div>
+        <div class="faq">
+            <h3 class="en">3. Why can't I access the camera or photo library?</h3>
+            <h3 class="zh" style="display:none;">3. 为什么无法访问相机或相册？</h3>
+            <p class="en">Please ensure you have granted camera and photo library permissions in your device settings. The app will prompt you if permissions are missing.</p>
+            <p class="zh" style="display:none;">请确保已在设备设置中授予相机和相册权限。如未授权，应用会自动弹窗提示。</p>
+        </div>
+        <div class="faq">
+            <h3 class="en">4. How do I restore my purchases?</h3>
+            <h3 class="zh" style="display:none;">4. 如何恢复购买？</h3>
+            <p class="en">On the Subscription Plans page, tap "Restore Purchases" to recover your previous subscriptions.</p>
+            <p class="zh" style="display:none;">在订阅页面点击“恢复购买”按钮，即可找回之前的订阅。</p>
+        </div>
+        <div class="faq">
+            <h3 class="en">5. How do I contact support?</h3>
+            <h3 class="zh" style="display:none;">5. 如何联系客服？</h3>
+            <p class="en">If you have any questions or need help, please contact us via email: <a href="mailto:Intellisant_001@outlook.com">Intellisant_001@outlook.com</a></p>
+            <p class="zh" style="display:none;">如有疑问或需要帮助，请通过邮箱联系我们：<a href="mailto:Intellisant_001@outlook.com">Intellisant_001@outlook.com</a></p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+        <h2 class="en">App Features</h2>
+        <h2 class="zh" style="display:none;">应用功能</h2>
+        <ul class="en">
+            <li>AI-powered plant identification and disease diagnosis</li>
+            <li>Personalized plant care guides</li>
+            <li>Plant growth tracking and reminders</li>
+            <li>Multi-language support (English & Chinese)</li>
+            <li>Secure subscription management via App Store</li>
+        </ul>
+        <ul class="zh" style="display:none;">
+            <li>AI智能植物识别与病害诊断</li>
+            <li>个性化养护指南</li>
+            <li>植物成长记录与提醒</li>
+            <li>多语言支持（中英文）</li>
+            <li>通过App Store安全管理订阅</li>
+        </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="contact">
+        <h2 class="en">Contact Us</h2>
+        <h2 class="zh" style="display:none;">联系我们</h2>
+        <p class="en">Email: <a href="mailto:Intellisant_001@outlook.com">Intellisant_001@outlook.com</a></p>
+        <p class="zh" style="display:none;">邮箱：<a href="mailto:Intellisant_001@outlook.com">Intellisant_001@outlook.com</a></p>
+    </div>
+</div>
+</body>
+</html>
